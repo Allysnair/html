@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<html>
+ <head>
+ 	<title>Event form</title>
+ 	
+ </head>
+ <body bgcolor="pink">
+ 	<h3 align="center">EVENT</h3><br>
+ 	<form action="action.php">
+ 	  
+ 		<label for="name">Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+ 		<input type="text" id="name" name="name" placeholder="Name" maxlength="25" required><br><br>
+ 		
+ 		<label for="email">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+ 		<input type="email" id="email" name="email" value=" test@example.com" autofocus required><br><br>
+ 		
+ 		<label for="psw">Password&nbsp;&nbsp;&nbsp;:</label>
+ 		<input type="password" id="psw" name="password" minlength="6" required><br><br>
+ 		
+ 		<label for="category">Category&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+ 		<select id="category" name="cat" required>
+ 			<option value="student">Student</option>
+ 			<option value="employee">Employee</option>
+ 			<option value="freelancer" selected>Freelancer</option>
+ 		</select><br><br>
+ 		
+ 		<label for="date">Event Date&nbsp;:</label>
+ 		<input type="date" id="date" name="date" required><br><br>
+ 		
+ 		Select&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+ 		<input type="radio" id="ticket 1" name="ticket">
+ 		 <label for="ticeket 1">Ticket 1</label>
+ 		<input type="radio" id="ticket 2" name="ticket" checked>
+ 		 <label for="ticeket 2">Ticket 2</label>
+ 		<input type="radio" id="ticket 3" name="ticket">
+ 		 <label for="ticeket 3">Ticket 3</label><br><br>
+ 		
+ 		<input type="checkbox" id="pay" name="payment" required>
+ 		<label for="pay">Online Payment</label><br><br>
+ 	 
+ 		<label for="notes">Notes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+ 		<textarea rows="5" cols="20" id="notes" name="notes" placeholder="description"></textarea><br><br>
+ 		
+ 		<input type="submit" value="submit">
+    </form>
+ </body>
+ </html>
